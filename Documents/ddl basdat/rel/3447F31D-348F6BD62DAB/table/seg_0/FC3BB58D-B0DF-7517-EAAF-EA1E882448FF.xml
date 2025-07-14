@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC3BB58D-B0DF-7517-EAAF-EA1E882448FF" name="service">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>3474C14E-C212-1404-3F6F-60F23D5CA2A6</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="AFEB3719-2D4F-7FC2-C3B5-3662007F7671">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>6106B428-421D-30C6-5F08-85CA59E8EA6B</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_layanan" id="C3D9EF4D-E473-C2C3-0D0B-BE29236E8D11">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>C4BEBCF2-3213-6CA3-E087-EA2B411C9D37</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hargaperkg" id="93AC7419-5EDE-BD4D-085C-76820CC929F0">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>17C327EB-F05B-C9DD-A02A-69F88BFD5E9A</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65FC1553-7640-A995-C8FD-4E97330FAA83" name="service_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>D541E15F-2119-3926-ACAE-1741E0C1B18A</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFEB3719-2D4F-7FC2-C3B5-3662007F7671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="B686B506-2F66-90E7-E16E-FD0C08B993D7">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:01:26 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<sourcePk>1C4A21E3-BC04-64C5-E9CD-D2DD5342B9CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12642A8B-C8B7-2D20-F120-A46283BA8AE9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>561D23F9-2DAC-C072-56E6-BF1C97F999D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

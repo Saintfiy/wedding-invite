@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CB911B0-1703-428F-3AA0-F74F8659823A" name="MONTIR">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:27:17 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nama (Mandatory)" id="B5F4DEA9-E974-907B-735F-93F8C7963824">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:30:20 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Keahlian (Mandatory)" id="F04C6FB9-3651-A2DE-6C2C-B974A7AD0A63">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:30:27 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor HP (Mandatory)" id="923A3168-9598-C5E9-F12A-4A25021F8D1F">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:30:33 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email (Opsional)" id="8C996289-2BC7-2541-1D17-AF7084127AA0">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:30:40 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="umur" id="B6CA42B1-E127-AC40-5603-A0201A9D2E02">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-07 03:32:02 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8457A689-21E1-EABE-59C5-D33875A52C65" name="MONTIR PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:49:48 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5F4DEA9-E974-907B-735F-93F8C7963824</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

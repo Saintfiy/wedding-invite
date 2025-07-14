@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0568DD4-63F7-02CF-885D-D76E3D95C027" containerWithKeyObject="07D24175-C26D-2C1E-1B95-70C22BD8FBD4" localFKIndex="EFDA4DA4-21B1-9DE1-4FD4-4E86587FBAAB" name="Relation_6_Montir_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>1741663A-3403-EBF1-4B9D-537A367305CD</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<referredTableLongName>Montir</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>473C9827-3F26-F427-A98A-578E57F3794E</referredTableID>
+<keyObject>E4A8CBD7-B021-5163-9D36-B761279796ED</keyObject>
+<referredKeyID>E4A8CBD7-B021-5163-9D36-B761279796ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PegawaiID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

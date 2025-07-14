@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E55BDB86-4549-5FFE-6838-50A3C4E39E35" name="ServisOrder">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>7470A2FB-D2FD-F6D4-6B06-D3149D7FE235</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ServisOrderID" id="CE890158-CDF1-F996-A921-C70F7B48A300">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>0E14B71C-203E-B01E-1743-BD3334C56126</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanggalMauk" id="8C97595B-96ED-3674-0A38-4639DD332736">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>1E9873CC-6EC3-0E4B-AFF8-5D122EA0E64D</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanggalKeluar" id="FD8D9622-54E1-AA11-2115-436806A42F57">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>572C845E-3286-C5DA-626C-49CF335BCD8B</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalBiaya" id="3DF61A54-E675-99B7-8FE8-3F3ED3D84523">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>C699F0CA-089F-1608-6DF2-67F46C49427F</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Motor_MotorID" id="347069DD-F155-7033-E0E2-9405550A9196">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>BEA6C69C-8326-94CE-89B5-05C60FB04601</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB2678C9-64A0-31B1-D556-539690C868A0" referredColumn="6525CD2D-945C-B659-EB63-1F6DCF49B28D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3805A59E-A9A4-27C3-25FC-FF55C99181A4" name="ServisOrder_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>7D123C58-8BF2-58E7-9CE7-1875A5B59CAC</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE890158-CDF1-F996-A921-C70F7B48A300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="306184A4-CF89-EEB5-95C2-44A4701AC7D4" name="ServisOrder_Motor_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>3DDD73B5-0CFD-1A3C-DBA8-D0E8922ABBE3</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="347069DD-F155-7033-E0E2-9405550A9196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

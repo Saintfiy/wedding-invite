@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="561D23F9-2DAC-C072-56E6-BF1C97F999D9" name="order">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:57:20 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="order_id" id="F16503BB-6598-DBB8-1B60-65A5162C4B7B">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:57:27 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="berat" id="E0880C1E-8180-AA56-5275-61520A96718C">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:57:33 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_harga" id="5CB870FF-27E3-ED4B-8100-F0891C2817C8">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:57:38 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metode_pembayaran" id="768D0331-FA8A-4FA2-D203-65A1B24F9F04">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:57:57 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer_id" id="9BAAB334-695C-74D4-2634-63DCFD6A188A">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:01:26 UTC</createdTime>
+<generatorID>B686B506-2F66-90E7-E16E-FD0C08B993D7</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<referedAttribute>AA32024A-F295-B146-5FDD-CA7D3620896B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service_id" id="58121952-7657-6523-907E-F8B94FC4810A">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:01:44 UTC</createdTime>
+<generatorID>565B536A-3F91-9B9A-2E07-B5F7EFB625CD</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<referedAttribute>6106B428-421D-30C6-5F08-85CA59E8EA6B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="karyawan_id" id="812073A8-1C64-F5D2-FBD7-FC39FDC4ACFC">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:04:18 UTC</createdTime>
+<generatorID>0AE056B0-5668-5178-84B3-26789C394BD4</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<referedAttribute>76CA3704-933B-6C99-8557-66FC15C69476</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="laporan_id" id="92D696DB-3108-374F-E7FA-DB5ACB850053">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:19 UTC</createdTime>
+<generatorID>7B78047A-4DE8-2360-38D4-F35601727EFA</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<referedAttribute>6E7A97CD-6AF5-913E-90CD-36B26DA35720</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFD96493-3208-0FAE-B7CB-640CC92E89FD" name="order PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:57:32 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F16503BB-6598-DBB8-1B60-65A5162C4B7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76F51844-4836-32FD-6DD4-B07CE293612B" name="laporan_keuangan">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>34F7E780-F332-7B49-C386-86486F0BB924</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="laporan_id" id="21ACE56D-6942-5EE9-DA0D-B55CAF806CAB">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>6E7A97CD-6AF5-913E-90CD-36B26DA35720</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_laporan" id="FD2F83A5-F286-415D-6651-0236A5C3D341">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>EC1AFEE0-BD09-6A80-0FFE-A9200A9BC35F</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pendapatan" id="481B00E8-3C16-3DD2-B16C-A8A717FD5EA8">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>8D787278-29E6-E370-701F-C6B8E987013E</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pengeluaran" id="653312D4-7306-C081-1F91-38984189DF02">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>D50F97A8-1112-95FC-B268-4487FD35BC6D</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keterangan" id="255B6C81-F574-1971-8F3D-17F25FFEA710">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>8CAF5982-F485-9762-7A82-29694868FAD2</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laba_bersih" id="0AE37C29-ACFB-B5F9-918F-50F73D0544CC">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>EAF6B4AA-D2DA-C7D9-C110-D87200B59D14</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07AB9B0A-7917-B157-07FA-4DF6D5FFF08D" name="laporan_keuangan_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:05:30 UTC</createdTime>
+<generatorID>C220DE8F-E000-7F43-5D96-F5291DFB2CEB</generatorID>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21ACE56D-6942-5EE9-DA0D-B55CAF806CAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

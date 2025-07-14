@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCD67526-DE36-343B-A6C7-5FFB415FA5E2" name="KENDARAAN">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:27:02 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nomor Polisi (Mandatory)" id="7B7A3176-ADF9-B15A-5C49-F222A8724D03">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:29:28 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Merek (Mandatory)" id="007E62DF-3820-434E-DF6A-5162925BF800">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:29:34 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model (Mandatory)" id="0668FB96-BD12-0AD0-9C2D-5DCFEECCF92A">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:29:39 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tahun Pembuatan (Opsional)" id="5B036ACE-3B54-41C5-0A4F-022E9FDDA376">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:29:57 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kerusakan" id="5D8DBFC9-F0BA-01D8-E4C6-6BE56F1A1E7C">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-07 03:31:54 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Pelanggan (Mandatory)1" id="5B3FC91E-B671-3BEB-3DAD-558742ABBD44">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:16:04 UTC</createdTime>
+<generatorID>A15D4B32-8F49-CA2E-D004-72085C20337E</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A751586-C9A8-2173-8ECA-19C97943AA9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3626ABA-BB72-C163-3EBA-968529DD7EFE" name="KENDARAAN PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-06 15:48:44 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E7B16703-5B0C-5D48-E9BB-2A1DCA07D2D9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B7A3176-ADF9-B15A-5C49-F222A8724D03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

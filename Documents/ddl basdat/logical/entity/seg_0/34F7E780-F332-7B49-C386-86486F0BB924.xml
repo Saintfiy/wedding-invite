@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34F7E780-F332-7B49-C386-86486F0BB924" name="laporan_keuangan">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:59:17 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="laporan_id" id="6E7A97CD-6AF5-913E-90CD-36B26DA35720">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:59:26 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_laporan" id="EC1AFEE0-BD09-6A80-0FFE-A9200A9BC35F">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:59:41 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pendapatan" id="8D787278-29E6-E370-701F-C6B8E987013E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:59:51 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pengeluaran" id="D50F97A8-1112-95FC-B268-4487FD35BC6D">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:59:57 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keterangan" id="8CAF5982-F485-9762-7A82-29694868FAD2">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:00:04 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="laba_bersih" id="EAF6B4AA-D2DA-C7D9-C110-D87200B59D14">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 11:00:14 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C220DE8F-E000-7F43-5D96-F5291DFB2CEB" name="laporan_keuangan PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:59:39 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E7A97CD-6AF5-913E-90CD-36B26DA35720</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

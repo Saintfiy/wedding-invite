@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A70714C6-6756-7EFD-2B09-B6303FABD096" name="KENDARAAN">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>CCD67526-DE36-343B-A6C7-5FFB415FA5E2</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nomor_Polisi_(Mandatory)" id="59CC8ACB-2644-CACC-FB24-2426DC55DD8B">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>7B7A3176-ADF9-B15A-5C49-F222A8724D03</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Merek_(Mandatory)" id="695A52F2-7677-EC4F-414E-86BCAC31B857">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>007E62DF-3820-434E-DF6A-5162925BF800</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_(Mandatory)" id="B05520A7-4DB4-D617-07E2-E00028275671">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>0668FB96-BD12-0AD0-9C2D-5DCFEECCF92A</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tahun_Pembuatan_(Opsional)" id="A6B498ED-1E4E-7F5B-8197-88AAAF0C18BB">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>5B036ACE-3B54-41C5-0A4F-022E9FDDA376</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kerusakan" id="32FCB830-52E9-685E-7B3E-2CC576140F82">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>5D8DBFC9-F0BA-01D8-E4C6-6BE56F1A1E7C</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELANGGAN_ID_Pelanggan_(Mandatory)" id="6D59EA20-BD3E-4C12-B487-61C6BD5B8BE5">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>5B3FC91E-B671-3BEB-3DAD-558742ABBD44</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EEFB527-F730-880A-7AA0-57D14AD6AA6C" referredColumn="9B7F7EEA-FE5C-11C8-BF49-8D59679EE6CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42BA9E53-6F9C-D802-FDC5-B2AD9F079C8D" name="KENDARAAN_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>B3626ABA-BB72-C163-3EBA-968529DD7EFE</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="C628548E-7198-6B92-A7E6-04613C5BF12F" name="KENDARAAN_PELANGGAN_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>A15D4B32-8F49-CA2E-D004-72085C20337E</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D59EA20-BD3E-4C12-B487-61C6BD5B8BE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

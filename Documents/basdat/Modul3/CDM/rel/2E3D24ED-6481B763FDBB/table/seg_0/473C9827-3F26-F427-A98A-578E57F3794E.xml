@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="473C9827-3F26-F427-A98A-578E57F3794E" name="Montir">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>2A499199-327B-CFBC-3CE1-524C67F841B0</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PegawaiID" id="1D8D3CD4-4C2E-1CC7-C191-30C9A3CD23C7">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>A96B4AFA-38C1-82CA-44BE-84DBCE08298A</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A0C7658-DC3F-29CC-1A36-CDDF7AC37BBD" referredColumn="EF78BEB9-7AFF-89C6-D6AC-821EED1578DE"/>
+</associations>
+</Column>
+<Column name="MontirID" id="2B0DD019-D798-48C2-F662-5D94810B190E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>C0307BAA-B475-B09D-DA87-7C168331999B</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="A415D07F-939E-E47B-8AC8-542AFC5BC67E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>7B9A1CDB-AE89-0C0B-00B1-419F2062802C</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoHP" id="92273476-1F7A-77E3-AD4E-567DFC8F7DC4">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>2B9699EA-B34E-CF7D-384D-9AA04B6DBFC1</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AtasanMontirID" id="1428BF4E-37F4-26B4-4AAD-A39865782F96">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>1F305701-22CB-BB35-8B50-E97431155EDE</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Montir_MontirID" id="F9CCD786-BDB6-A9BA-5A1B-239D8E8CFB2B">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>A1956554-C462-F6F2-6249-F5B5361D02BC</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9BE50EF-6709-99FF-4EC4-CA0CD14C2C46" referredColumn="2B0DD019-D798-48C2-F662-5D94810B190E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4A8CBD7-B021-5163-9D36-B761279796ED" name="Montir_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>4BDD5633-AD53-6823-9F0A-75D2EE160F6C</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D8D3CD4-4C2E-1CC7-C191-30C9A3CD23C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2771CC9-5B3E-9AB3-D33D-C720159AFAB6" name="Montir_PKv1">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>22762052-2C33-11FB-2F1E-E4BA2773F80E</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B0DD019-D798-48C2-F662-5D94810B190E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6D55929-D785-6A28-1DE3-1B337BB1C863" name="Montir_Pegawai_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>C30115FE-455C-2768-A7ED-E0D5CBD975B8</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D8D3CD4-4C2E-1CC7-C191-30C9A3CD23C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF283EC-FECD-7895-24D2-04D87614E3FE" name="Montir_Montir_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>6F6EE0EF-ABD7-34BA-C498-DD567F5B4CA6</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9CCD786-BDB6-A9BA-5A1B-239D8E8CFB2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

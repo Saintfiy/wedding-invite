@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AB8955F-7102-1BEC-8650-47BB4197F103" name="Admin">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>E3FFD6DA-B30A-532B-485B-017A5973D7FB</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PegawaiID" id="10434C0B-798A-3915-41B1-4B75917B4866">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>A96B4AFA-38C1-82CA-44BE-84DBCE08298A</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="711556FE-2261-8FC3-F575-AE0DCB0CDE81" referredColumn="EF78BEB9-7AFF-89C6-D6AC-821EED1578DE"/>
+</associations>
+</Column>
+<Column name="AdminID" id="69BDCCC4-6A9A-3AC7-067F-BF5DDEDCA450">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>A7605451-D098-0894-5E2C-6647F513ED22</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HakAkses" id="05D42F8E-58A6-08EC-1AC5-802A336FF58E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>FBB84E55-39C0-5833-C0EE-70DC3587F4EB</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="536F3105-B968-3300-B1E8-49F29C7B7B50" name="Admin_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>4BDD5633-AD53-6823-9F0A-75D2EE160F6C</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10434C0B-798A-3915-41B1-4B75917B4866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="537A6101-906E-5F69-1E21-91A1436075FE" name="Admin_PKv1">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>443DCA6B-5FC0-56B1-2B75-11FDD155F5DD</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69BDCCC4-6A9A-3AC7-067F-BF5DDEDCA450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA532885-F226-ABD3-4AF9-1EAB86C36041" name="Admin_Pegawai_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>BC45C284-168B-EB6C-69AF-E23D87A90A3D</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10434C0B-798A-3915-41B1-4B75917B4866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

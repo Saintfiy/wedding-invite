@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB2678C9-64A0-31B1-D556-539690C868A0" containerWithKeyObject="E55BDB86-4549-5FFE-6838-50A3C4E39E35" localFKIndex="306184A4-CF89-EEB5-95C2-44A4701AC7D4" name="ServisOrder_Motor_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>3DDD73B5-0CFD-1A3C-DBA8-D0E8922ABBE3</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<referredTableLongName>Motor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AC65EB8-065F-FD8B-54CA-962A88BA751A</referredTableID>
+<keyObject>FE93DA79-901D-BF73-E89C-D93262F2CF0E</keyObject>
+<referredKeyID>FE93DA79-901D-BF73-E89C-D93262F2CF0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MotorID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

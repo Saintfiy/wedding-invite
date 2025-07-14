@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AC65EB8-065F-FD8B-54CA-962A88BA751A" name="Motor">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>A81F8DB0-07C1-AC14-91B9-D9F5777557C1</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MotorID" id="6525CD2D-945C-B659-EB63-1F6DCF49B28D">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>CA58D770-C88D-47DB-A33C-F7093A281144</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlatNomor" id="5C597F78-2AAB-90D8-99C3-75B821199A93">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>A245AF25-F810-956D-41AE-5BA73E08683D</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Merk" id="6C391DEA-6A7B-45F1-42D5-AC700BEE427E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>647CAB0F-9F80-7A41-0DB6-57AFA0A9C568</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="709D2F5F-1F50-84D6-90C0-CDAB4E4252C0">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>ADE01DCE-8838-1260-DD2D-F5A2DF0817DE</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tahun" id="543F5A65-463C-6EA0-56FF-B027A0C7207F">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>C6922F42-C54A-C4FE-516E-367D7537CCCD</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_CustomerID" id="A9CEAAFD-D5D4-9F54-8128-21C57BE6996C">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>87470537-7616-16F2-BD69-4B645B6B6AB6</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C04B72D-9C93-1947-D049-C62D9846C0A7" referredColumn="FB293CCA-FC7C-C939-F7AB-7C8AE6AF6DFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE93DA79-901D-BF73-E89C-D93262F2CF0E" name="Motor_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>063A39F3-D275-AF8C-0BC9-A099904AD77F</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6525CD2D-945C-B659-EB63-1F6DCF49B28D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D350F4BB-A027-5E64-10BC-A4AE0FCFEB58" name="Motor_Customer_FK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>9FFB9219-16EB-8B90-2121-7A10DC6692E5</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9CEAAFD-D5D4-9F54-8128-21C57BE6996C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

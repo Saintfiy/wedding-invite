@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2B04BD5-F0D2-290A-5F78-0DE51A4FCB37" name="PELANGGAN">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>FBD94D7F-A66C-6C58-2AC0-58213DBB7E99</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pelanggan_(Mandatory)" id="9B7F7EEA-FE5C-11C8-BF49-8D59679EE6CF">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>0A751586-C9A8-2173-8ECA-19C97943AA9A</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_(Mandatory)" id="36673343-8FF4-8DC4-B359-993DACA366C1">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>26F0D749-A987-9F9D-4572-2F34494E36F9</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_HP_(Mandatory)" id="AE02299D-1373-78A9-A84E-86DD925DBBCC">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>E0D62794-84CE-8BB2-9EFA-09C2910BFB4A</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_(Opsional)" id="2AC332A8-0FBA-E079-9DC6-524387DC0B1E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>5B485E1D-E633-D5B9-4501-3653F23DE359</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_(Opsional)" id="678A08FE-9595-24AC-CDF0-83851455FB6B">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>BDCD651A-0055-15AA-407E-38AB7F999A24</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umur" id="FAE32EB8-79BE-22A9-F207-E2407283FDA2">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>A93825B5-5897-8568-18B2-E8456DAD491F</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELANGGAN_ID" id="3DE9D93E-F272-53FB-E67E-189A48FD381E">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B8C77C5-2302-DD48-15E7-BCD528192A9B" name="PELANGGAN_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<ownerDesignName>b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3DE9D93E-F272-53FB-E67E-189A48FD381E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="256AC1EA-B734-4D6D-F9A2-B388D017031E" name="PELANGGAN_ID_Pelanggan_(Mandatory)_UN">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-03-14 03:26:13 UTC</createdTime>
+<generatorID>612F992A-D461-2FD9-B47E-1AC217512176</generatorID>
+<ownerDesignName>b</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B7F7EEA-FE5C-11C8-BF49-8D59679EE6CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

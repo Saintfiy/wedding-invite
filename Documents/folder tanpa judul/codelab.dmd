@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="codelab" id="7311741A-BDE2-6568-54DA-332F17C425EF" version="3.5">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-13 16:01:47 UTC</createdTime>
+<ownerDesignName>codelab</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7311741A-BDE2-6568-54DA-332F17C425EF</designId>
+</OSDM_Design>

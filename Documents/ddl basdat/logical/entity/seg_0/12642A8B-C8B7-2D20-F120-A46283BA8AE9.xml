@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12642A8B-C8B7-2D20-F120-A46283BA8AE9" name="Customer">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:54:52 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="customer_id" id="AA32024A-F295-B146-5FDD-CA7D3620896B">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:55:07 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="4CF1323A-9A3A-0D63-C17C-DF5561832AAC">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:55:25 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="5C349D96-33DD-AC07-BC2C-B558C4A7D314">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:55:36 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_hp" id="5D18B82D-F84E-3736-97F4-DE0EA6863D3C">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:55:43 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poin" id="E5BBD4B3-816D-2299-BDA3-EB8D200739E5">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:55:54 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_daftar" id="4C978A2D-839E-149B-6946-5A92CC9741C4">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:56:03 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C4A21E3-BC04-64C5-E9CD-D2DD5342B9CB" name="Customer PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-06-17 10:55:21 UTC</createdTime>
+<ownerDesignName>ddl basdat</ownerDesignName>
+<engineerTo>
+<item key="3447F31D-261D-5544-450C-348F6BD62DAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA32024A-F295-B146-5FDD-CA7D3620896B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

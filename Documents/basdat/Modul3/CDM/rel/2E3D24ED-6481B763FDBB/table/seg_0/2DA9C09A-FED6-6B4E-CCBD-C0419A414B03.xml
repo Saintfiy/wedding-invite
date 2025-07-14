@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DA9C09A-FED6-6B4E-CCBD-C0419A414B03" name="Sparepart">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>EDC3E2A6-036A-CE6D-E607-F7AAD686262F</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SparepartID" id="CDCA5251-50DF-BE3A-5FA4-B66C77DBC595">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>596F24E0-2905-0C1F-AD5D-1796E9F5622A</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NamaSparepart" id="C1825434-898B-8518-2A44-7CE5BEE385DA">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>1CCB6F5F-8991-C05E-A587-3E7D9F1E4DFE</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="D26D6648-E6D8-56A5-EBF0-78151F2C14EE">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>E19FDFE7-524E-5A29-3F88-E81E0BA9D446</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok" id="3804BCDC-4B4B-0E18-9C88-B3D1F4DD48EC">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>F4A3697C-E479-7554-AF41-465B1FCBA8CE</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F85B956A-1B11-0A77-575C-FA1ABFCC59AB" name="Sparepart_PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-05-09 05:06:50 UTC</createdTime>
+<generatorID>1AB1962C-5A2A-120B-8A40-E4DF405B3190</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDCA5251-50DF-BE3A-5FA4-B66C77DBC595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C223831D-EC5F-21F6-5066-5E6F44C30242" name="Detail">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:44:24 UTC</createdTime>
+<ownerDesignName>CDM</ownerDesignName>
+<engineerTo>
+<item key="2E3D24ED-B59A-57EB-4021-6481B763FDBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DetailID" id="76AD9B38-ECB8-A28F-8F95-DED10C5D2435">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:44:53 UTC</createdTime>
+<ownerDesignName>CDM</ownerDesignName>
+<engineerTo>
+<item key="2E3D24ED-B59A-57EB-4021-6481B763FDBB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NamaService" id="AA5F8DFF-93BD-0D2E-313C-BFB6B1AF13A6">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:45:04 UTC</createdTime>
+<ownerDesignName>CDM</ownerDesignName>
+<engineerTo>
+<item key="2E3D24ED-B59A-57EB-4021-6481B763FDBB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biaya" id="5A3AF8DF-F406-FC3C-592B-D21E7C588BA9">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:45:20 UTC</createdTime>
+<ownerDesignName>CDM</ownerDesignName>
+<engineerTo>
+<item key="2E3D24ED-B59A-57EB-4021-6481B763FDBB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ServisOrderID" id="C2BD7790-74F0-4FB7-A404-087C926C81D4">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:51:01 UTC</createdTime>
+<generatorID>EC662526-9E4C-55BD-0072-B7C4675AF5A7</generatorID>
+<ownerDesignName>CDM</ownerDesignName>
+<engineerTo>
+<item key="2E3D24ED-B59A-57EB-4021-6481B763FDBB" value="true"/>
+</engineerTo>
+<referedAttribute>0E14B71C-203E-B01E-1743-BD3334C56126</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B224A274-AC95-1174-93FE-743258621AA8" name="Detail PK">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:45:00 UTC</createdTime>
+<ownerDesignName>CDM</ownerDesignName>
+<engineerTo>
+<item key="2E3D24ED-B59A-57EB-4021-6481B763FDBB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76AD9B38-ECB8-A28F-8F95-DED10C5D2435</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CDM" id="393DFA29-34C1-E417-449F-B49F9EF0C956" version="3.5">
+<createdBy>saintfyi</createdBy>
+<createdTime>2025-04-19 01:38:49 UTC</createdTime>
+<ownerDesignName>CDM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>393DFA29-34C1-E417-449F-B49F9EF0C956</designId>
+</OSDM_Design>
