@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="918C3F6C-4691-B51D-2504-120DF574F210" mainViewID="A0A5BF4B-EC01-36A4-D432-4CC3F466DEB5">
-<createdBy>saintfyi</createdBy>
-<createdTime>2025-06-17 10:54:21 UTC</createdTime>
-<ownerDesignName>ddl basdat</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
